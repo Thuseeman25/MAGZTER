@@ -1,0 +1,146 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/inner_content"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+    
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scrollbars="none"
+	    android:background="@color/home_background_color">
+    
+		<LinearLayout   
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingTop="65dp"
+		    android:gravity="center_horizontal"
+		    android:orientation="vertical"
+		    tools:context=".HomeActivity" >
+		
+		    <LinearLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:gravity="center_horizontal"
+		        android:orientation="vertical"
+		        android:layout_gravity="center_horizontal">
+		        
+		        <RelativeLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content">
+		            
+		            <ImageView 
+			            android:layout_width="643px"
+			            android:layout_height="364px"
+			            android:src="@drawable/spinelli_coffee"/>  
+			             
+			          <fragment 
+			            android:id="@+id/mapview"
+			            android:name="com.google.android.gms.maps.SupportMapFragment"
+        				android:layout_width="643px" 
+        				android:layout_height="180px"
+        				android:layout_marginBottom="10dp"
+        				android:layout_alignParentBottom="true"/>
+			        <!-- <ImageView 
+			            android:layout_width="643px"
+			            android:layout_height="180px"
+			            android:src="@drawable/map_image"
+			            android:paddingBottom="10dp"
+			            android:layout_alignParentBottom="true"/> -->
+			        
+			        <ImageView 
+			            android:layout_width="643px"
+			            android:layout_height="544px"
+			            android:src="@drawable/current_location_view"/>
+			        
+			        <LinearLayout 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:paddingLeft="5dp"
+			            android:paddingTop="25dp"
+			            android:layout_centerVertical="true"
+			            android:orientation="vertical">
+			            		        
+				        <TextView 
+				            android:id="@+id/current_location_text"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textScaleX="0.85"
+				            android:textSize="9pt"
+				            android:textColor="@color/current_location_text_color"
+				            android:text="CURRENT LOCATION"/>
+				        
+				        <TextView 
+				            android:id="@+id/current_location_name"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="13pt"
+				            android:textScaleX="0.9"
+				            android:textStyle="bold"
+				            android:textColor="@color/pure_white"
+				            android:text="SPINELLI COFFEE"/>
+			        </LinearLayout>
+			        <LinearLayout 
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_alignParentBottom="true"
+			            android:layout_margin="10dp"
+			            android:gravity="center_vertical"
+			            android:orientation="vertical">
+			            		        
+				        <TextView 
+				            android:id="@+id/available_text"
+				            android:layout_width="wrap_content"
+				            android:layout_height="wrap_content"
+				            android:textSize="6pt"
+				            android:textScaleX="1.1"
+				            android:textColor="@color/available_magazines_text_color"
+				            android:text="MAGAZINES"/>
+				        <TextView 
+				            android:id="@+id/magazines_text"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:textSize="6pt"
+				            android:textScaleX="1.1"
+				            android:gravity="center_horizontal"
+				            android:textColor="@color/available_magazines_text_color"
+				            android:text="AVAILABLE "/>
+				        
+				        <TextView 
+				            android:id="@+id/available_magazines_no"
+				            android:layout_width="fill_parent"
+				            android:layout_height="wrap_content"
+				            android:textSize="17pt"
+				            android:shadowColor="@color/pure_black"
+				            android:shadowDx="1"
+				            android:shadowDy="1"
+				            android:shadowRadius="3"
+				            android:gravity="center_horizontal"
+				            android:textColor="@color/available_magazines_no_color"
+				            android:text="10"/>
+			        </LinearLayout>
+		        </RelativeLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:gravity="center_horizontal"
+		        android:orientation="vertical">
+		        
+		        <ImageView 
+		            android:id="@+id/news_stand_image"
+		            android:layout_width="704px"
+		            android:src="@drawable/news_stand_bg"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_height="594px"/>
+		    </LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+	<include
+	    layout="@layout/header_view" />
+	
+</RelativeLayout>

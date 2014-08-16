@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_background_color">#cc000000</color>
+    <color name="current_location_text_color">#b5b5b5</color>
+    <color name="home_background_color">#1d262d</color>
+    <color name="pure_white">#ffffff</color>
+    <color name="pure_black">#000000</color>
+    <color name="available_magazines_text_color">#42413e</color>
+    <color name="available_magazines_no_color">#989697</color>
+    <color name="side_menu_background_color">#323232</color>
+    <color name="side_menu_background_selected_color">#252525</color>
+    <color name="magazine_sale_color">#FF0000</color>
+    
+</resources>

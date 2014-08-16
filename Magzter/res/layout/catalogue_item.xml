@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background_color"
+    android:orientation="vertical" >   
+	<LinearLayout 
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"	  	    
+		  android:orientation="vertical">
+		  <TextView 
+		  	 android:id="@+id/catelogue_text"
+		  	 android:layout_width="wrap_content"
+		  	 android:text="FEATURED"
+		  	 android:padding="5dp"
+		  	 android:textColor="@color/pure_white"
+		  	 android:textSize="8pt"
+		  	 android:layout_height="wrap_content"/>
+		  	    
+		 <com.jess.ui.TwoWayGridView 
+		  	xmlns:app="http://schemas.android.com/apk/res-auto"
+		  	android:id="@+id/magazine_gallery"
+		  	android:layout_width="fill_parent" 
+    		android:layout_height="120dp"
+    		android:paddingLeft="5dp"
+			app:columnWidth="300dp"
+			app:rowHeight="150dp"
+			app:numColumns="auto_fit"
+			app:numRows="1"
+			app:horizontalSpacing="10dp"
+			app:stretchMode="none"
+			app:scrollDirectionLandscape="horizontal"
+			app:scrollDirectionPortrait="horizontal"
+			app:gravity="center"/>
+	  	</LinearLayout>
+</LinearLayout>

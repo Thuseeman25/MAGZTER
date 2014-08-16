@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/home_background_color"
+    tools:context="com.magzter.facebook.FacebookLoginActivity" >
+
+    <include layout="@layout/header_view"/>
+    
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+	<ImageView 
+	    android:id="@+id/fb_login_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:src="@android:drawable/ic_menu_save"/>
+</LinearLayout>

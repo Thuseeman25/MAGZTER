@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Magzter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_catalogue">CatalogueActivity</string>
+    <string name="title_activity_zoom">ZoomActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_magazine_viewer">MagazineViewer</string>
+    <string name="app_id">594332030680240</string>
+    <string name="title_activity_facebook_login">FacebookLoginActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="wifi_state">WIFI BSSIDs</string>
+    <string name="search_button">Scan</string>
+    <string name="register_button">Register</string>
+    <string name="merchant_name">Merchant Name</string>
+    <string name="wifi_bssid">Paste BSSID Here</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+
+</resources>

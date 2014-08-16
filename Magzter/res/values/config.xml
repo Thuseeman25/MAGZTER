@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="get_magazine_list_uri">http://www.financeberry.com/getmagazine.php</string>
+	<string name="get_issue_list_uri">http://www.financeberry.com/getissue.php</string>
+	<string name="get_category_list_uri">http://www.financeberry.com/getcategory.php</string>
+	<string name="get_publisher_list_uri">http://www.financeberry.com/getpublisher.php</string>
+</resources>

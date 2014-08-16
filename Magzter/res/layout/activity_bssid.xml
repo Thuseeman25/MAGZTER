@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pure_black"
+    tools:context=".BSSIDActivity" >
+
+    <EditText
+        android:id="@+id/wifi_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pure_white"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:gravity="top"
+        android:lines="4"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/search_button" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="@string/merchant_name"
+        android:background="@color/pure_white"
+        android:ems="10" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pure_white"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="@string/wifi_bssid"
+        android:ems="10" >
+
+    </EditText>
+
+     <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/register_button" />
+</LinearLayout>

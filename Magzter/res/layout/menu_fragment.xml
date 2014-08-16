@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/side_menu_background_color"
+    android:orientation="vertical">
+    
+	<RelativeLayout
+	    android:id="@+id/menu_profile"
+	    android:layout_width="wrap_content"
+	    android:layout_height="110dp" >
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/profile_button"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="14sp"
+	        android:textColor="@color/pure_white"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:text="Profile"/>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:id="@+id/menu_home"
+	    android:layout_width="wrap_content"
+	    android:layout_height="90dp">
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/menu_home_button"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="14sp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/pure_white"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:text="Home"/>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:id="@+id/menu_purchases"
+	    android:layout_width="wrap_content"
+	    android:layout_height="90dp">
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/menu_purchases_button"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="14sp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/pure_white"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:text="Purchases &amp; \n Subscriptions"/>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:id="@+id/menu_nearby"
+	    android:layout_width="wrap_content"
+	    android:layout_height="90dp">
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/menu_nearby_button"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="14sp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/pure_white"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:text="Near By"/>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:id="@+id/menu_bookmarks"
+	    android:layout_width="wrap_content"
+	    android:layout_height="90dp">
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/menu_bookmarks_button"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="14sp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="@color/pure_white"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true"
+	        android:text="Bookmarks"/>
+	</RelativeLayout>
+</LinearLayout>
